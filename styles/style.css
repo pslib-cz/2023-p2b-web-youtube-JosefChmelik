@@ -4,8 +4,9 @@
    gap: 1em;
    display: flex;
    flex-wrap: wrap;
-   align-items: center;
+   align-items: stretch;
    justify-content: center;
+   align-content: center;
 }
 
 .ytv {
@@ -18,16 +19,19 @@
 }
 .ytv__left {
    align-items: center;
-   width: 15rem;
    display: flex;
+   gap: 1em;
    justify-content: space-between;
 }
 .ytv__right {
    display: flex;
+   gap: 1em;
    align-items: center;
 }
 .profile {
-
+   display: flex; 
+   gap: 1em;
+   flex-shrink: 0;
 }
 .profile__text {
     

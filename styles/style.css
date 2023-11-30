@@ -1,0 +1,40 @@
+/* DOKUMENT STYLŮ K ÚPRAVĚ */
+
+.main {
+   gap: 1em;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+}
+
+.ytv {
+   height: fit-content;
+}
+.ytv__bottom {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+}
+.ytv__left {
+   align-items: center;
+   width: 15rem;
+   display: flex;
+   justify-content: space-between;
+}
+.ytv__right {
+   display: flex;
+   align-items: center;
+}
+.profile {
+
+}
+.profile__text {
+    
+}
+.icon {
+
+}
+.btn--flex {
+    
+}
